@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>CloudCampusIQ | Learn by Doing</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <nav class="container" aria-label="Main navigation">
+            <a class="brand" href="/" aria-label="CloudCampusIQ home">
+                <span class="brand-mark" aria-hidden="true">CI</span>
+                CloudCampusIQ
+            </a>
+
+            <div class="nav-links">
+                <a href="#courses">Explore courses</a>
+                <a href="/materials">Materials</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <div class="eyebrow">
+                        Build your technical foundation
+                    </div>
+
+                    <h1>
+                        Learn the concepts.<br>
+                        <span>Build the confidence.</span>
+                    </h1>
+
+                    <p class="intro">
+                        Explore cybersecurity, cloud computing, and
+                        networking. Start with the fundamentals and
+                        discover how the pieces work together.
+                    </p>
+
+                    <div class="actions">
+                        <a class="button primary" href="#courses">
+                            Explore sample courses &rarr;
+                        </a>
+
+                        <a class="button secondary" href="/materials">
+                            View materials
+                        </a>
+                    </div>
+                </div>
+
+                <aside class="learning-panel"
+                       aria-label="Learning approach">
+                    <div class="panel-label">A practical approach</div>
+
+                    <h2>Turn curiosity into understanding.</h2>
+
+                    <p>
+                        A clear path through the foundations of technology.
+                    </p>
+
+                    <div class="learning-step">
+                        <span class="step-number">01</span>
+
+                        <div>
+                            <strong>Explore the fundamentals</strong>
+                            <small>
+                                Understand the ideas behind the tools.
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="learning-step">
+                        <span class="step-number">02</span>
+
+                        <div>
+                            <strong>Connect the concepts</strong>
+                            <small>See how systems work together.</small>
+                        </div>
+                    </div>
+
+                    <div class="learning-step">
+                        <span class="step-number">03</span>
+
+                        <div>
+                            <strong>Keep building your skills</strong>
+                            <small>
+                                Take the next step in your learning.
+                            </small>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="courses"
+                 id="courses"
+                 aria-labelledby="courses-title">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <div class="eyebrow">
+                            Explore your next subject
+                        </div>
+
+                        <h2 id="courses-title">
+                            Start with the essentials.
+                        </h2>
+                    </div>
+
+                    <p>Sample course catalog</p>
+                </div>
+
+                <div class="course-grid">
+                    <article class="course-card">
+                        <div class="course-art art-security">
+                            <span class="course-symbol"
+                                  aria-hidden="true">[ ]</span>
+                            <span class="tag">Security</span>
+                        </div>
+
+                        <div class="course-body">
+                            <h3>Introduction to Cybersecurity</h3>
+
+                            <p>
+                                Explore common threats, access controls,
+                                and the principles behind protecting
+                                digital information.
+                            </p>
+
+                            <div class="course-meta">
+                                Foundations &middot; Sample course
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-art art-cloud">
+                            <span class="course-symbol"
+                                  aria-hidden="true">{ }</span>
+                            <span class="tag">Cloud</span>
+                        </div>
+
+                        <div class="course-body">
+                            <h3>Cloud Computing Fundamentals</h3>
+
+                            <p>
+                                Discover how compute, storage, and
+                                networking come together to support
+                                applications in the cloud.
+                            </p>
+
+                            <div class="course-meta">
+                                Foundations &middot; Sample course
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-art art-network">
+                            <span class="course-symbol"
+                                  aria-hidden="true">&lt;/&gt;</span>
+                            <span class="tag">Networking</span>
+                        </div>
+
+                        <div class="course-body">
+                            <h3>Network Security Basics</h3>
+
+                            <p>
+                                Learn how network boundaries, firewall
+                                rules, and secure connections help
+                                protect applications.
+                            </p>
+
+                            <div class="course-meta">
+                                Foundations &middot; Sample course
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <span>
+                CloudCampusIQ &middot; D782 demonstration.
+                Course enrollment and labs are not implemented.
+            </span>
+
+            <a href="/health">Application health &rarr;</a>
+        </div>
+    </footer>
+</body>
+</html>
